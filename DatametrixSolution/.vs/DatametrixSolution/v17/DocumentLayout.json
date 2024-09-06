@@ -1,0 +1,603 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\infrastructure.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782E5739-19D1-47DB-97EC-F49CA4B480EE}|Web.API\\Web.API.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\web.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782E5739-19D1-47DB-97EC-F49CA4B480EE}|Web.API\\Web.API.csproj|solutionrelative:web.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3984BF34-0EED-492E-9FB5-7912895FCDBC}|Core.Application\\Core.Application.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\core.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3984BF34-0EED-492E-9FB5-7912895FCDBC}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\pages\\employeelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\pages\\employeelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\blazorclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\blazorclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782E5739-19D1-47DB-97EC-F49CA4B480EE}|Web.API\\Web.API.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\web.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782E5739-19D1-47DB-97EC-F49CA4B480EE}|Web.API\\Web.API.csproj|solutionrelative:web.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\infrastructure.data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\infrastructure.data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\infrastructure.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A1AC4A-700A-489C-A522-2818A80150DF}|Core.Domain\\Core.Domain.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\core.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A1AC4A-700A-489C-A522-2818A80150DF}|Core.Domain\\Core.Domain.csproj|solutionrelative:core.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A1AC4A-700A-489C-A522-2818A80150DF}|Core.Domain\\Core.Domain.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\core.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A1AC4A-700A-489C-A522-2818A80150DF}|Core.Domain\\Core.Domain.csproj|solutionrelative:core.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\services\\userstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\services\\userstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\pages\\assigntasks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\pages\\assigntasks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\pages\\editemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\pages\\editemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\pages\\createemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\pages\\createemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\layout\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\layout\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A1AC4A-700A-489C-A522-2818A80150DF}|Core.Domain\\Core.Domain.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\core.domain\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A1AC4A-700A-489C-A522-2818A80150DF}|Core.Domain\\Core.Domain.csproj|solutionrelative:core.domain\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\blazorclient\\layout\\emptylayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4F30F01C-5297-48C2-B650-A519D52B3F61}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\layout\\emptylayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782E5739-19D1-47DB-97EC-F49CA4B480EE}|Web.API\\Web.API.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\web.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{782E5739-19D1-47DB-97EC-F49CA4B480EE}|Web.API\\Web.API.csproj|solutionrelative:web.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\infrastructure.data\\infrastructure.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\infrastructure.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3984BF34-0EED-492E-9FB5-7912895FCDBC}|Core.Application\\Core.Application.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\core.application\\core.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3984BF34-0EED-492E-9FB5-7912895FCDBC}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\core.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A1AC4A-700A-489C-A522-2818A80150DF}|Core.Domain\\Core.Domain.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\core.domain\\core.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6A1AC4A-700A-489C-A522-2818A80150DF}|Core.Domain\\Core.Domain.csproj|solutionrelative:core.domain\\core.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|c:\\users\\ranfla\\desktop\\cursos\\datametrix\\datametrixsolution\\infrastructure.data\\migrations\\20240904220522_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B27939-DF29-44C2-8975-48C669E469F2}|Infrastructure.Data\\Infrastructure.Data.csproj|solutionrelative:infrastructure.data\\migrations\\20240904220522_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Infrastructure.Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:52:40.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\appsettings.json",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\appsettings.json",
+              "RelativeToolTip": "Infrastructure.Data\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T22:01:17.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Web.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Web.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Web.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Web.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAUwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:08:17.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorClient\\Pages\\Login.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T05:54:06.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.razor.css",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\Login.razor.css",
+              "RelativeDocumentMoniker": "BlazorClient\\Pages\\Login.razor.css",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\Login.razor.css",
+              "RelativeToolTip": "BlazorClient\\Pages\\Login.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-06T07:03:19.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeList.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\EmployeeList.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Pages\\EmployeeList.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\EmployeeList.razor",
+              "RelativeToolTip": "BlazorClient\\Pages\\EmployeeList.razor",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T16:46:20.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BlazorClient\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "BlazorClient\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwDYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T16:43:58.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorClient\\Program.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Program.cs",
+              "RelativeToolTip": "BlazorClient\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:44:01.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Infrastructure.Data\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwCwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:05:05.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Core.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "Core.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwCsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:24:35.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure.Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:33:13.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlazorClient",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\BlazorClient.csproj",
+              "RelativeDocumentMoniker": "BlazorClient\\BlazorClient.csproj",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\BlazorClient.csproj",
+              "RelativeToolTip": "BlazorClient\\BlazorClient.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-05T16:43:39.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Domain\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "Core.Domain\\Entities\\Task.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Domain\\Entities\\Task.cs",
+              "RelativeToolTip": "Core.Domain\\Entities\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:22:15.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Core.Domain\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "Core.Domain\\Entities\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:21:28.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Web.API\\Program.cs",
+              "RelativeDocumentMoniker": "Web.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Web.API\\Program.cs",
+              "RelativeToolTip": "Web.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:08:56.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "BlazorClient\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "BlazorClient\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T05:53:38.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\App.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\App.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\App.razor",
+              "RelativeToolTip": "BlazorClient\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T16:47:52.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\_Imports.razor",
+              "RelativeToolTip": "BlazorClient\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T20:25:17.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserStateService.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Services\\UserStateService.cs",
+              "RelativeDocumentMoniker": "BlazorClient\\Services\\UserStateService.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Services\\UserStateService.cs",
+              "RelativeToolTip": "BlazorClient\\Services\\UserStateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T06:44:38.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssignTasks.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\AssignTasks.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Pages\\AssignTasks.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\AssignTasks.razor",
+              "RelativeToolTip": "BlazorClient\\Pages\\AssignTasks.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T16:47:31.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorClient\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:42:53.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditEmployee.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\EditEmployee.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Pages\\EditEmployee.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\EditEmployee.razor",
+              "RelativeToolTip": "BlazorClient\\Pages\\EditEmployee.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T16:47:12.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateEmployee.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\CreateEmployee.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Pages\\CreateEmployee.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Pages\\CreateEmployee.razor",
+              "RelativeToolTip": "BlazorClient\\Pages\\CreateEmployee.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T16:46:50.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorClient\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T20:28:08.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmptyLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Layout\\EmptyLayout.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Layout\\EmptyLayout.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Layout\\EmptyLayout.razor",
+              "RelativeToolTip": "BlazorClient\\Layout\\EmptyLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T06:32:34.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Domain\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Core.Domain\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Domain\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Core.Domain\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAApwAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:22:42.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorClient\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T20:25:32.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmptyLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Layout\\EmptyLayout.razor.css",
+              "RelativeDocumentMoniker": "BlazorClient\\Layout\\EmptyLayout.razor.css",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\BlazorClient\\Layout\\EmptyLayout.razor.css",
+              "RelativeToolTip": "BlazorClient\\Layout\\EmptyLayout.razor.css",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwD8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-06T06:34:25.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Web.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Web.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Web.API\\appsettings.json",
+              "RelativeToolTip": "Web.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T21:34:50.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240904220522_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\Migrations\\20240904220522_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\Migrations\\20240904220522_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\Migrations\\20240904220522_InitialCreate.cs",
+              "RelativeToolTip": "Infrastructure.Data\\Migrations\\20240904220522_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T22:05:23.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Infrastructure.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\Infrastructure.Data.csproj",
+              "RelativeDocumentMoniker": "Infrastructure.Data\\Infrastructure.Data.csproj",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Infrastructure.Data\\Infrastructure.Data.csproj",
+              "RelativeToolTip": "Infrastructure.Data\\Infrastructure.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T21:05:21.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Core.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Application\\Core.Application.csproj",
+              "RelativeDocumentMoniker": "Core.Application\\Core.Application.csproj",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Application\\Core.Application.csproj",
+              "RelativeToolTip": "Core.Application\\Core.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T20:24:46.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Core.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Domain\\Core.Domain.csproj",
+              "RelativeDocumentMoniker": "Core.Domain\\Core.Domain.csproj",
+              "ToolTip": "C:\\Users\\Ranfla\\Desktop\\cursos\\datametrix\\DatametrixSolution\\Core.Domain\\Core.Domain.csproj",
+              "RelativeToolTip": "Core.Domain\\Core.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T20:22:22.974Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

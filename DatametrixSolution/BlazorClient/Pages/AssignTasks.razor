@@ -1,0 +1,90 @@
+﻿@page "/employees/{id:int}/assign-tasks"
+@inject EmployeeService EmployeeService
+@using YourBlazorApp.Services
+@using Core.Domain.Entities
+@inject UserStateService UserStateService
+@inject NavigationManager Navigation
+
+<h3>Assign Tasks to Employee</h3>
+
+@if (employee == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <h4>@employee.Name</h4>
+
+    <EditForm Model="newTask" OnValidSubmit="AddTask">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div>
+            <label for="taskName">Task Name:</label>
+            <InputText id="taskName" @bind-Value="newTask.Name" />
+        </div>
+        <button type="submit">Add Task</button>
+        @if (errorMessage != null)
+        {
+            <p style="color: red;">@errorMessage</p>
+        }
+    </EditForm>
+
+    <h4>Assigned Tasks</h4>
+    <ul>
+        @foreach (var task in employee.Tasks)
+        {
+            <li>@task.Name</li>
+        }
+    </ul>
+}
+
+@code {
+    [Parameter] public int Id { get; set; }
+    private Employee employee;
+    private Core.Domain.Entities.Task newTask = new Core.Domain.Entities.Task();
+    private string errorMessage;
+
+    protected override async System.Threading.Tasks.Task OnInitializedAsync()
+    {
+        employee = await EmployeeService.GetEmployeeByIdAsync(Id);
+        errorMessage = null;  
+    }
+
+    private async System.Threading.Tasks.Task AddTask()
+    {
+        errorMessage = null;
+
+        if (employee.Name.ToLower() == "john" )
+        {
+            errorMessage = "John cannot have any tasks assigned.";
+            return;
+        }
+
+        if (employee.Name.ToLower() != "steve" && employee.Tasks.Count >= 3)
+        {
+            errorMessage = "Cannot assign more than three tasks to this employee.";
+            return;
+        }
+
+        if (employee.Tasks.Any(t => t.Name == newTask.Name))
+        {
+            errorMessage = "Task is already assigned to this employee.";
+            return;
+        }
+
+        if (newTask.Name == null || newTask.Name.Trim() == string.Empty)
+        {
+            errorMessage = "Task name cannot be empty.";
+            return;
+        }
+
+        
+
+        await EmployeeService.AssignTasksAsync(Id, newTask);
+        employee.Tasks.Add(newTask);
+
+        // Clear the new task field
+        newTask = new Core.Domain.Entities.Task();
+    }
+}

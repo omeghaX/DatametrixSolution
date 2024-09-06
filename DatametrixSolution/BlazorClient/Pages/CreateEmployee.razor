@@ -1,0 +1,42 @@
+﻿@page "/employees/create"
+@inject EmployeeService EmployeeService
+@inject NavigationManager NavigationManager
+@using Core.Domain.Entities
+@using YourBlazorApp.Services
+
+@inject UserStateService UserStateService
+
+<h3>Create Employee</h3>
+
+<EditForm Model="employee" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="name">Name:</label>
+        <InputText id="name" @bind-Value="employee.Name" />
+    </div>
+
+    <button type="submit">Create</button>
+</EditForm>
+
+@code {
+    private Employee employee = new Employee();
+
+    private string userName;
+    protected override async System.Threading.Tasks.Task OnInitializedAsync()
+    {
+        userName = UserStateService.GetUserName();
+
+        if (userName == "Manager")
+        {
+            NavigationManager.NavigateTo("/", true);
+        }
+    }
+
+    private async System.Threading.Tasks.Task HandleValidSubmit()
+    {
+        await EmployeeService.CreateEmployeeAsync(employee);
+        NavigationManager.NavigateTo("/employees");
+    }
+}

@@ -1,0 +1,17 @@
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\bin\Debug\net8.0\Infrastructure.Data.deps.json
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\bin\Debug\net8.0\Infrastructure.Data.runtimeconfig.json
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\bin\Debug\net8.0\Infrastructure.Data.dll
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\bin\Debug\net8.0\Infrastructure.Data.pdb
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\bin\Debug\net8.0\Core.Domain.dll
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\bin\Debug\net8.0\Core.Domain.pdb
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastructure.Data.AssemblyInfo.cs
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastr.E726AEB6.Up2Date
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastructure.Data.dll
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\refint\Infrastructure.Data.dll
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastructure.Data.pdb
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\Infrastructure.Data.genruntimeconfig.cache
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\Infrastructure.Data\obj\Debug\net8.0\ref\Infrastructure.Data.dll

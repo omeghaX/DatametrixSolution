@@ -1,0 +1,53 @@
+﻿@page "/login"
+@inherits LayoutComponentBase
+@inject CustomAuthenticationStateProvider AuthStateProvider
+@inject NavigationManager Navigation
+@layout EmptyLayout
+
+
+
+
+
+
+
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+       
+        <div class="fadeIn first">
+            <h3>Login</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/6681/6681204.png" id="icon" alt="User Icon" />
+        </div>
+
+       
+        <form>
+            <input type="text" @bind="username" id="username" class="fadeIn second" name="login" placeholder="Username">
+            <input type="text" @bind="password" id="password" class="fadeIn third" name="login" placeholder="password">
+            
+            <input type="submit" @onclick="HandleLogin" class="fadeIn fourth" value="Login">
+        </form>
+
+        @if (errorMessage != null)
+        {
+            <p style="color: red;">@errorMessage</p>
+        }
+
+    </div>
+</div>
+        
+@code {
+    private string username;
+    private string password;
+    private string errorMessage;
+    private async Task HandleLogin()
+    {
+        if ((username == "HRManager" && password == "123456") || (username == "Manager" && password == "654321"))
+        {
+            AuthStateProvider.NotifyUserAuthentication(username);
+            Navigation.NavigateTo("/"); 
+        }
+        else
+        {
+            errorMessage = "Error incorrect username or password";
+        }
+    }
+}

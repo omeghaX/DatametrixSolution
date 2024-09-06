@@ -1,0 +1,1 @@
+C:\Users\Ranfla\Desktop\cursos\datametrix\DatametrixSolution\BlazorClient\obj\Release\net8.0\browser-wasm\PubTmp\Out\web.config

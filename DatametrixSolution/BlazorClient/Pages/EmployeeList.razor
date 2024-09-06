@@ -1,0 +1,76 @@
+﻿@page "/employees"
+@inject EmployeeService EmployeeService
+@using YourBlazorApp.Services
+@using Core.Domain.Entities
+@inject NavigationManager Navigation
+@inject UserStateService UserStateService
+
+<h3>Employees</h3>
+@if (userName == "HRManager")
+{
+    <a href="/employees/create" class="btn btn-primary">Create New Employee</a>
+}
+
+@if (employees == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                @if (userName == "HRManager")
+                {
+                    <th scope="col">HR Actions</th>
+                    <th scope="col">HR Actions</th>
+                }else{
+                <th scope="col">Manager Actions</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in employees)
+            {
+                <tr>
+                    <th scope="row">@employee.Id</th>
+                    <td>@employee.Name</td>
+                    @if (userName == "HRManager")
+                    {
+                        <td>
+                            <a href="/employees/edit/@employee.Id" class="btn btn-info">Edit</a>
+
+                        </td>
+                        <td><button @onclick="() => DeleteEmployee(employee.Id)" class="btn btn-danger">Delete</button></td>
+                    }else{
+                    
+                    <td>
+                        <a href="/employees/@employee.Id/assign-tasks" class="btn btn-success">assign Task</a>
+                        
+                    </td>
+                    }
+                    
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Employee> employees;
+    private string userName;
+
+    protected override async System.Threading.Tasks.Task OnInitializedAsync()
+    {
+        employees = await EmployeeService.GetEmployeesAsync();
+        userName = UserStateService.GetUserName();
+    }
+
+    private async System.Threading.Tasks.Task DeleteEmployee(int id)
+    {
+        await EmployeeService.DeleteEmployeeAsync(id);
+        employees = await EmployeeService.GetEmployeesAsync();
+    }
+}
